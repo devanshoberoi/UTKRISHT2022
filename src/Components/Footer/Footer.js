@@ -12,7 +12,7 @@ function Footer() {
           </div>
           <div className="list">
             <ul>
-              <li>kolkata</li>
+              <li>Kolkata</li>
               <li>Mumbai</li>
               <li>Chennai</li>
               <li>Pune</li>
@@ -25,16 +25,16 @@ function Footer() {
           </div>
           <div className="list">
             <ul>
-              <li>About OLX Group</li>
+              <li>About REASY Group</li>
               <li>Careers</li>
               <li>Contact Us</li>
-              <li>OLXPeople</li>
+              <li>REASYPeople</li>
             </ul>
           </div>
         </div>
         <div>
           <div className="heading">
-            <p>OLX</p>
+            <p>REASY</p>
           </div>
           <div className="list">
             <ul>
@@ -46,8 +46,8 @@ function Footer() {
         </div>
       </div>
       <div className="footer">
-        <p>Other Countries Pakistan - South Africa - Indonesia</p>
-        <p>Free Classifieds in India. © 2006-2021 OLX</p>
+{/* <p>Other States : Mumbai, Chandigarh</p> */}
+        <p>Free Classifieds in India. © 2021-2022 REASY</p>
       </div>
     </div>
   );

@@ -34,7 +34,6 @@ export default function Signup() {
   return (<>
     {loading && <SignUpLoading/> } <div>
       <div className="signupParentDiv">
-        <img width="200px" height="200px" src={Logo} alt=""></img>
         <form onSubmit={handleSubmit}>
           <label>Full Name</label>
           <br />

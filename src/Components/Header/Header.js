@@ -3,6 +3,7 @@ import { useHistory } from "react-router";
 import { AllPostContext } from "../../contextStore/AllPostContext";
 import { PostContext } from "../../contextStore/PostContext";
 import "./Header.css";
+// import images from "../../assets/REASYLOGO.png";
 import OlxLogo from "../../assets/OlxLogo";
 import SearchIcon from "../../assets/SearchIcon"
 import Arrow from "../../assets/Arrow";
@@ -56,7 +57,9 @@ function Header() {
     <div className="headerParentDiv">
       <div className="headerChildDiv">
         <div className="brandName">
-          <OlxLogo></OlxLogo>
+        {/* <OlxLogo></OlxLogo> */}
+        {/* <img src={images} height={100} width={100} /> */}
+        {/* <img src="../../../Images/REASYL.png" alt=""  height={100} width={100} /> */}
         </div>
         <div className="placeSearch">
           <input type="text" 
@@ -64,6 +67,7 @@ function Header() {
           value={wordEntered}
           onChange={handleFilter}
         />{filteredData.length === 0 ? (
+          
           <div onClick={handleEmptyClick}> <SearchIcon /> </div>
          ) : (
            <div id="clearBtn"  onClick={clearInput} > <Arrow></Arrow></div>
@@ -111,7 +115,7 @@ function Header() {
             <SellButton></SellButton>
             <div className="sellMenuContent">
               <SellButtonPlus></SellButtonPlus>
-              <span>SELL</span>
+              <span>RENT</span>
             </div>
           </div>
         </Link>

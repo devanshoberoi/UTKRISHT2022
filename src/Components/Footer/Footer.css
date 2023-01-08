@@ -17,14 +17,16 @@
 }
 
 .footerParentDiv .footer {
+  
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 10px;
   background: #002f34;
-  color: whitesmoke;
+  color: rgb(135, 135, 134);
 }
 
 .footerParentDiv .footer p {
+  
   margin: 0;
 }
